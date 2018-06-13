@@ -5,5 +5,5 @@ require __DIR__.'/vendor/autoload.php';
 
 
 print_r(
-	Ofcold\IPRegion\Region::make('113.88.160.136')
+	Ofcold\IPRegion\Region::make('12.88.160.22')
 );

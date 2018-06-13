@@ -137,7 +137,7 @@ class Region
 			}
 
 		}
-		catch (InvalidArgumentException $e) {
+		catch (RuntimeException $e) {
 			throw $e;
 		}
 
