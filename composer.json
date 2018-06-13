@@ -1,0 +1,42 @@
+{
+    "name": "ofcold/ip-region",
+    "description": "Ip gets real address, data source Taobao API build.",
+    "keywords": [
+        "php71",
+        "IP",
+        "Region",
+        "Area"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "homepage": "https://ofcold.com",
+    "authors": [
+        {
+            "name": "Ofcold Team",
+            "email": "support@ofcold.com",
+            "homepage": "https://ofcold.com"
+        },
+        {
+            "name": "Olivia Fu",
+            "email": "olivia@ofcold.com",
+            "homepage": "https://olivia.ink"
+        },
+        {
+            "name": "Bill Li",
+            "email": "bill@ofcold.com",
+            "homepage": "https://artisanbill.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ofcold\\IPRegion\\": "src/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev"
+}
